@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile_interface_activity"
+    android:background="@drawable/back2">
+
+
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="317dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="5dp"
+        android:autofillHints="Name"
+        android:background="@color/white"
+        android:hint="@string/usernameA"
+        android:inputType="textCapWords"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="317dp"
+        android:layout_height="75dp"
+        android:autofillHints="الاسم"
+        android:background="@color/white"
+        android:hint="الاسم الاول"
+        android:inputType="textCapWords"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_name"
+        app:layout_constraintVertical_bias="0.03"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/Educational_level"
+        android:layout_width="317dp"
+        android:layout_height="75dp"
+        android:autofillHints="المستوى التعليمي(ابتدائي-متوسط -ثانوي)"
+        android:background="@color/white"
+        android:hint="المستوى التعليمي(ابتدائي-متوسط -ثانوي)"
+        android:inputType="textCapWords"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/last_name"
+        app:layout_constraintVertical_bias="0.054"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="317dp"
+        android:layout_height="75dp"
+        android:autofillHints="الاسم الاخير"
+        android:background="@color/white"
+        android:hint="الاسم الاخير"
+        android:inputType="textCapWords"
+        app:layout_constraintBottom_toBottomOf="@+id/enter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first_name"
+        app:layout_constraintVertical_bias="0.043"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_width="321dp"
+        android:layout_height="68dp"
+        android:autofillHints="Email"
+        android:background="@color/white"
+        android:hint="@string/emailA"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Educational_level"
+        app:layout_constraintVertical_bias="0.057"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:onClick="enter"
+        android:text="@string/enter"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="321dp"
+        android:layout_height="69dp"
+        android:autofillHints="Password"
+        android:background="@color/white"
+        android:hint="@string/passwordA"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/enter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_email"
+        app:layout_constraintVertical_bias="0.268"
+        tools:ignore="HardcodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

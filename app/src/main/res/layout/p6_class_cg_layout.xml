@@ -4,14 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".M2_class_cg_activity"
-    android:background="@drawable/back2"
-    >
-
+    tools:context=".P6_class_cg_activity"
+    android:background="@drawable/back2">
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="105dp"
+        android:layout_height="88dp"
         android:text="@string/book"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="@color/white"
@@ -24,138 +22,115 @@
         app:layout_constraintVertical_bias="0.029" />
 
     <Button
-        android:id="@+id/book39"
+        android:id="@+id/book24"
+        android:layout_width="381dp"
+        android:layout_height="80dp"
         android:layout_marginTop="5dp"
-        android:layout_width="260dp"
-        android:layout_height="62dp"
-        android:onClick="book39"
-        android:text="@string/book39"
+        android:onClick="book24"
+        android:text="@string/book24"
         android:textColor="@color/black"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.122" />
+        app:layout_constraintVertical_bias="0.685" />
 
     <Button
-        android:id="@+id/book40"
+        android:id="@+id/book25"
+        android:layout_width="381dp"
+        android:layout_height="80dp"
         android:layout_marginTop="5dp"
-        android:layout_width="260dp"
-        android:layout_height="62dp"
-        android:onClick="book40"
-        android:text="@string/book40"
+        android:onClick="book25"
+        android:text="@string/book25"
         android:textColor="@color/black"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.346" />
+        app:layout_constraintVertical_bias="0.834" />
 
     <Button
-        android:id="@+id/book41"
+        android:id="@+id/book26"
+        android:layout_width="381dp"
+        android:layout_height="80dp"
         android:layout_marginTop="5dp"
-        android:layout_width="260dp"
-        android:layout_height="62dp"
-        android:layout_marginStart="24dp"
-        android:onClick="book41"
-        android:text="@string/book41"
+        android:onClick="book26"
+        android:text="@string/book26"
         android:textColor="@color/black"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.226" />
+        app:layout_constraintVertical_bias="0.543" />
 
     <Button
-        android:id="@+id/book42"
+        android:id="@+id/book27"
+        android:layout_width="381dp"
+        android:layout_height="80dp"
         android:layout_marginTop="5dp"
-        android:layout_width="260dp"
-        android:layout_height="62dp"
-        android:layout_marginStart="24dp"
-        android:onClick="book42"
-        android:text="@string/book42"
+        android:onClick="book27"
+        android:text="@string/book27"
         android:textColor="@color/black"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.453" />
+        app:layout_constraintVertical_bias="0.252" />
 
     <Button
-        android:id="@+id/book43"
+        android:id="@+id/book28"
+        android:layout_width="381dp"
+        android:layout_height="80dp"
         android:layout_marginTop="5dp"
-        android:layout_width="260dp"
-        android:layout_height="62dp"
-        android:layout_marginStart="24dp"
-        android:onClick="book43"
-        android:text="@string/book43"
+        android:onClick="book28"
+        android:text="@string/book28"
         android:textColor="@color/black"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.667" />
+        app:layout_constraintVertical_bias="0.4" />
 
     <Button
-        android:id="@+id/book44"
+        android:id="@+id/book29"
+        android:layout_width="381dp"
+        android:layout_height="80dp"
         android:layout_marginTop="5dp"
-        android:layout_width="260dp"
-        android:layout_height="62dp"
-        android:onClick="book44"
-        android:text="@string/book44"
+        android:onClick="book29"
+        android:text="@string/book29"
         android:textColor="@color/black"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.567" />
+        app:layout_constraintVertical_bias="0.975" />
 
     <Button
-        android:id="@+id/book45"
+        android:id="@+id/book30"
+        android:layout_width="381dp"
+        android:layout_height="80dp"
         android:layout_marginTop="5dp"
-        android:layout_width="260dp"
-        android:layout_height="62dp"
-        android:layout_marginStart="24dp"
-        android:onClick="book45"
-        android:text="@string/book45"
+        android:onClick="book30"
+        android:text="@string/book30"
         android:textColor="@color/black"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.982" />
-
-    <Button
-        android:id="@+id/book46"
-        android:layout_width="383dp"
-        android:layout_height="77dp"
-        android:layout_marginTop="5dp"
-        android:onClick="book46"
-        android:text="@string/book46"
-        android:textColor="@color/black"
-        android:textSize="35sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.071"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.824" />
-
-
-
+        app:layout_constraintVertical_bias="0.108" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

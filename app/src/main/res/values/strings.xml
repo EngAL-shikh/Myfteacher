@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">My teacher1</string>
+    <string name="password">Password</string>
+    <string name="login">login</string>
+    <string name="create_account">Create Account</string>
+    <string name="todo">TODO</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="book">الكتب</string>
+    <string name="book31">مادة لغتي</string>
+    <string name="book32">مادة الاجتماعيات</string>
+    <string name="book33">مادة التوحيد</string>
+    <string name="book34">مادة الفقه</string>
+    <string name="book35">مادة التفسير</string>
+    <string name="book36">مادة الحديث</string>
+    <string name="book37">مادة التجويد</string>
+    <string name="book38">مادة التربية الاسرية</string>
+    <string name="book1">التوحيد</string>
+    <string name="book2">لغتي</string>
+    <string name="book3">التربية الاسرية</string>
+    <string name="book4">الفقه</string>
+    <string name="book5">التوحيد</string>
+    <string name="book6">لغتي</string>
+    <string name="book7">التربية الاسرية</string>
+    <string name="book8">الفقه</string>
+    <string name="P1">الصف الأول</string>
+    <string name="P2">الصف الثاني</string>
+    <string name="P3">الصف الثالث</string>
+    <string name="P4">الصف الرابع</string>
+    <string name="P5">الصف الخامس</string>
+    <string name="P6">الصف السادس</string>
+    <string name="C1">الصفوف</string>
+    <string name="M1">الصف الأول متوسط</string>
+    <string name="M2">الصف الثاني متوسط</string>
+    <string name="M3">الصف الثالث متوسط</string>
+    <string name="C2">الصفوف</string>
+    <string name="book9">التوحيد</string>
+    <string name="book11">التربية الاسرية</string>
+    <string name="book12">الفقه</string>
+    <string name="book10">لغتي</string>
+    <string name="book13">التوحيد</string>
+    <string name="book14">التربية الاسرية</string>
+    <string name="book15">الفقه</string>
+    <string name="book16">لغتي</string>
+
+    <string name="book17">التوحيد</string>
+    <string name="book18">التربية الاسرية</string>
+    <string name="book19">الفقه</string>
+    <string name="book20">لغتي الجميلة</string>
+    <string name="book21">الحديث</string>
+    <string name="book22">الاجتماعيات</string>
+    <string name="book23">التجويد</string>
+
+    <string name="book24">التوحيد</string>
+    <string name="book25">التربية الاسرية</string>
+    <string name="book26">الفقه</string>
+    <string name="book27">التجويد</string>
+    <string name="book28">لغتي الجميلة</string>
+    <string name="book29">الحديث</string>
+    <string name="book30">الاجتماعيات</string>
+
+    <string name="book39">مادة لغتي</string>
+    <string name="book40">مادة الاجتماعيات</string>
+    <string name="book41">مادة التربية الاسرية</string>
+    <string name="book42">مادة التوحيد</string>
+    <string name="book43">مادة الفقه</string>
+    <string name="book44">مادة التفسير</string>
+    <string name="book45">مادة الحديث</string>
+    <string name="book46">مادة التجويد</string>
+
+    <string name="book47">مادة التربية الاسرية</string>
+    <string name="book48">مادة لغتي</string>
+    <string name="book49">مادة الاجتماعيات</string>
+    <string name="book50">مادة التوحيد</string>
+    <string name="book51">مادة الفقه</string>
+    <string name="book52">مادة التفسير</string>
+    <string name="book53">مادة الحديث</string>
+    <string name="book54">مادة التجويد</string>
+    <string name="loginA">تسجيل الدخول</string>
+    <string name="singupA">حساب جديد</string>
+    <string name="passwordA">كلمة المرور</string>
+    <string name="emailA">الايميل</string>
+    <string name="usernameA">اسم المستخدم</string>
+    <string name="Psg">المرحلةالابتدائية</string>
+    <string name="msg">المرحلة المتوسطة</string>
+    <string name="hsg">المرحلة الثانوية</string>
+    <string name="sg">المرحلة الدراسية</string>
+    <string name="hc1">الصف الأول ثانوي</string>
+    <string name="hc2">الصف الثاني ثانوي</string>
+    <string name="hc3">الصف الثالث ثانوي</string>
+    <string name="hclass">الصفوف</string>
+    <string name="enter">دخول</string>
+
+
+</resources>

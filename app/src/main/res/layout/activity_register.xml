@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/back2">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:src="@drawable/logo1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116"
+        android:contentDescription="todo"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:autofillHints="Name"
+        android:background="@color/white"
+        android:hint="اسم المستخدم"
+        android:inputType="textCapWords"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305"
+        tools:ignore="HardcodedText" />
+
+
+    <EditText
+        android:id="@+id/input_firstname"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="-5dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="16dp"
+        android:background="#FDFAFA"
+        android:gravity="center"
+        android:hint="الاسم الأول"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/input_name"
+        app:layout_constraintTop_toBottomOf="@+id/input_name"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/input_lastname"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="16dp"
+        android:background="#FDFAFA"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="الاسم الأخير"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/input_firstname"
+        app:layout_constraintTop_toBottomOf="@+id/input_name" />
+
+    <EditText
+        android:id="@+id/input_Educational_level"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="#FDFAFA"
+        android:ems="10"
+        android:gravity="center"
+        android:hint=" )ابتدائي - متوسط - ثانوي( المستوى التعليمي "
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/input_lastname"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/input_firstname"
+        app:layout_constraintTop_toBottomOf="@+id/input_firstname"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="Email"
+        android:background="@color/white"
+        android:hint="الإيميل"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/input_Educational_level"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/input_Educational_level"
+        app:layout_constraintTop_toBottomOf="@+id/input_Educational_level"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="Password"
+        android:background="@color/white"
+        android:hint="كلمة المرور"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/input_email"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/input_email"
+        app:layout_constraintTop_toBottomOf="@+id/input_email"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="signup"
+        android:text="دخول"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.88" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
